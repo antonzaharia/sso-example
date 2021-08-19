@@ -1,0 +1,13 @@
+<h1>Home</h1>
+
+<% if @user %>
+  <p>User id: <%= @user['id'] %></p>
+  <p>User email: <%= @user['email'] %></p>
+
+  <%= form_tag('/logout') do -%>
+    <div><%= submit_tag 'Logout' %></div>
+  <% end -%>
+<% else %>
+  <p><%= @print %></p>
+<% end %>
+
