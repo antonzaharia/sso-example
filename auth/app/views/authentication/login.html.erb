@@ -1,0 +1,5 @@
+<%= form_for :user, url: 'authenticate', method: :post do |f| %>
+  Email : <%= f.email_field :email %><br />
+  Password : <%= f.password_field :password %><br />
+  <%= f.submit %>
+<% end %>
