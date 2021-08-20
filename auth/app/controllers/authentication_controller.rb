@@ -25,16 +25,19 @@ class AuthenticationController < ApplicationController
     end
   end
 
+  def load_user
+    user = User.find(params[:id])
+    render json: { user: user }
+  end
+
   def verify_token
-    user_id = JsonWebToken.decode(auth_params[:token])[:user_id]
-    user = User.find(user_id)
-    render json: { user: user, token: auth_params[:token]}
+    user = User.find(JsonWebToken.decode(auth_params[:token])[:user_id])
+    render json: { user: user, token: auth_params[:token] }
   end
 
   def logout
     session[:user_id] = nil
-    url = params[:redirect_url].split('/logout').join('')
-    redirect_to "#{url}?token=no-user"
+    redirect_to "#{params[:redirect_url]}?token=no-user"
   end
 
   private

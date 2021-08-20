@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :items
   post 'authenticate', to: 'authentication#authenticate'
+  post 'load-user', to: 'authentication#load_user'
   post 'verify-token', to: 'authentication#verify_token'
   root 'authentication#index'
   get 'login', to: 'authentication#login'
