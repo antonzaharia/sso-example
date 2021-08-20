@@ -24,8 +24,10 @@ Once we are logged in we can visit both `http://localhost:3001` or `http://local
   
 - We'll check if we have a session[:user_id]
   1. If we do have, we redirect back to the url from params (`:redirect_url`) `http://localhost:3001?token=[auth-token]`
-     - Having a token will make an api call back to auth server `http://localhost:3000/verify-token` where we decode that token and retrieve user info
+     - Having a token will make a request back to auth server `http://localhost:3000/verify-token` where we decode that token and retrieve user info
   2. If we do NOT have, we redirect back with `http://localhost:3001?token=[no-user]`
+    
+- If we already have a session[:user_id] on `http://localhost:3001` (ex. next time we visit), we'll make a request to the auth server `http://localhost:3000/load-user` where we're finding the user and retrieve the user info (to reduce redirects).
 
 ### More info
 https://tushartuteja.medium.com/a-simple-single-sign-on-sso-using-rails-docker-ff62187b959
