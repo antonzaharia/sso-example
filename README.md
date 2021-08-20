@@ -15,7 +15,7 @@ Start all 3 servers in different terminals as mentioned above.
 
 When we need to login we visit `http://localhost:3000/login`, and enter the details from the user created earlier.
 
-Once we are logged in we can visit for example 'http://localhost:3001' and we will see the user details.
+Once we are logged in we can visit both `http://localhost:3001` or `http://localhost:3002` and we will see the user details.
 ###### What happened under the hood?
 
 - We'll be redirected to `http://localhost:3000?redirect_url=localhost:3001`
@@ -25,6 +25,7 @@ Once we are logged in we can visit for example 'http://localhost:3001' and we wi
 - We'll check if we have a session[:user_id]
   1. If we do have, we redirect back to `http://localhost:3001?token=[auth-token]`
      - Having a token will make an api call back to `http://localhost:3000/verify-token` where we decode that token and retrieve user info
-  2. If we do NOT have,  we redirect back with with `http://localhost:3001?token=[no-user]`
+  2. If we do NOT have, we redirect back with `http://localhost:3001?token=[no-user]`
 
+### More info
 https://tushartuteja.medium.com/a-simple-single-sign-on-sso-using-rails-docker-ff62187b959
