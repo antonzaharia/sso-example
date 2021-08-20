@@ -6080,3 +6080,931 @@ Can't verify CSRF token authenticity.
 Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
 
 
+Started GET "/" for ::1 at 2021-08-20 11:32:32 +0100
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/antonzaharia/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by AuthenticationController#index as HTML
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:32 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?redirect_url=http://localhost:3001/" for ::1 at 2021-08-20 11:32:34 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"redirect_url"=>"http://localhost:3001/"}
+Redirected to http://localhost:3001/?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:40 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:41 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2021-08-20 11:32:46 +0100
+Processing by AuthenticationController#login as HTML
+  Rendering authentication/login.html.erb within layouts/application
+  Rendered authentication/login.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 255ms (Views: 230.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=no-user" for ::1 at 2021-08-20 11:32:47 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"no-user"}
+Redirected to http://localhost:3000?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/authenticate" for ::1 at 2021-08-20 11:32:49 +0100
+Processing by AuthenticationController#authenticate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BpACqw4J1UReAghan6X59oFmxGPtBEnNcQX2laYlL2ibgUhAb2iBpn3F3aX+o4uLWjxTnqiIe+UJqaEqSj5J9g==", "user"=>{"email"=>"admin@picfair.com", "password"=>"[FILTERED]"}, "commit"=>"Save User"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "admin@picfair.com"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "admin@picfair.com"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+Completed 200 OK in 1425ms (Views: 0.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/?redirect_url=http://localhost:3001/" for ::1 at 2021-08-20 11:32:54 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"redirect_url"=>"http://localhost:3001/"}
+Redirected to http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDE5NzR9.atdVwambkysEeMo2oSjlKGe2CO5qAFxZxit2I-_sZSY
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/verify-token?redirect_url=http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDE5NzR9.atdVwambkysEeMo2oSjlKGe2CO5qAFxZxit2I-_sZSY" for ::1 at 2021-08-20 11:32:54 +0100
+Processing by AuthenticationController#verify_token as JSON
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDE5NzR9.atdVwambkysEeMo2oSjlKGe2CO5qAFxZxit2I-_sZSY", "redirect_url"=>"http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDE5NzR9.atdVwambkysEeMo2oSjlKGe2CO5qAFxZxit2I-_sZSY", "authentication"=>{"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDE5NzR9.atdVwambkysEeMo2oSjlKGe2CO5qAFxZxit2I-_sZSY"}}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:29
+Completed 200 OK in 4ms (Views: 0.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/verify-token?redirect_url=http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDE5NzR9.atdVwambkysEeMo2oSjlKGe2CO5qAFxZxit2I-_sZSY" for ::1 at 2021-08-20 11:33:17 +0100
+Processing by AuthenticationController#verify_token as JSON
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDE5NzR9.atdVwambkysEeMo2oSjlKGe2CO5qAFxZxit2I-_sZSY", "redirect_url"=>"http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDE5NzR9.atdVwambkysEeMo2oSjlKGe2CO5qAFxZxit2I-_sZSY", "authentication"=>{"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDE5NzR9.atdVwambkysEeMo2oSjlKGe2CO5qAFxZxit2I-_sZSY"}}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:29
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/logout?redirect_url=http://localhost:3001/logout" for ::1 at 2021-08-20 11:34:28 +0100
+Processing by AuthenticationController#logout as HTML
+  Parameters: {"redirect_url"=>"http://localhost:3001/logout"}
+Redirected to http://localhost:3001/logout?token=no-user
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/logout?redirect_url=http://localhost:3001" for ::1 at 2021-08-20 11:34:36 +0100
+Processing by AuthenticationController#logout as HTML
+  Parameters: {"redirect_url"=>"http://localhost:3001"}
+Redirected to http://localhost:3001?token=no-user
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2021-08-20 11:34:44 +0100
+Processing by AuthenticationController#login as HTML
+  Rendering authentication/login.html.erb within layouts/application
+  Rendered authentication/login.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 55ms (Views: 28.1ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/authenticate" for ::1 at 2021-08-20 11:34:46 +0100
+Processing by AuthenticationController#authenticate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Tj0Miwts1ryjuWz7QI1MD6+KA/2aR240DWRP5bpMaFDTLEZgag2CXoB+uQQhiz5ydNCUAN/LXBx1yBhaVlcOzg==", "user"=>{"email"=>"admin@picfair.com", "password"=>"[FILTERED]"}, "commit"=>"Save User"}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "admin@picfair.com"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "admin@picfair.com"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+Completed 200 OK in 1421ms (Views: 0.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/?redirect_url=http://localhost:3001/" for ::1 at 2021-08-20 11:34:50 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"redirect_url"=>"http://localhost:3001/"}
+Redirected to http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDIwOTB9.aEQ-e-RmqXsk200YBzRPVEGhXHk7B45jdLweRqQxTV4
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/verify-token?redirect_url=http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDIwOTB9.aEQ-e-RmqXsk200YBzRPVEGhXHk7B45jdLweRqQxTV4" for ::1 at 2021-08-20 11:34:50 +0100
+Processing by AuthenticationController#verify_token as JSON
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDIwOTB9.aEQ-e-RmqXsk200YBzRPVEGhXHk7B45jdLweRqQxTV4", "redirect_url"=>"http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDIwOTB9.aEQ-e-RmqXsk200YBzRPVEGhXHk7B45jdLweRqQxTV4", "authentication"=>{"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDIwOTB9.aEQ-e-RmqXsk200YBzRPVEGhXHk7B45jdLweRqQxTV4"}}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:29
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/logout?redirect_url=http://localhost:3001" for ::1 at 2021-08-20 11:34:52 +0100
+Processing by AuthenticationController#logout as HTML
+  Parameters: {"redirect_url"=>"http://localhost:3001"}
+Redirected to http://localhost:3001?token=no-user
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?redirect_url=http://localhost:3001/" for ::1 at 2021-08-20 11:41:06 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"redirect_url"=>"http://localhost:3001/"}
+Redirected to http://localhost:3001/?token=no-user
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2021-08-20 11:41:11 +0100
+Processing by AuthenticationController#login as HTML
+  Rendering authentication/login.html.erb within layouts/application
+  Rendered authentication/login.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 43ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/authenticate" for ::1 at 2021-08-20 11:41:15 +0100
+Processing by AuthenticationController#authenticate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LhjlLdHRhv8KBqum/eudtWQXd5mHfGv1mDpgvLlQImizCa/GsLDSHSnBflmc7e/Iv03gZMLwWd3gljcDVUtE9g==", "user"=>{"email"=>"admin@picfair.com", "password"=>"[FILTERED]"}, "commit"=>"Save User"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "admin@picfair.com"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "admin@picfair.com"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+Completed 200 OK in 1420ms (Views: 0.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/?redirect_url=http://localhost:3001/" for ::1 at 2021-08-20 11:41:21 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"redirect_url"=>"http://localhost:3001/"}
+Redirected to http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0ODF9.YqihaMyXmnMViecAx5SLhievYBUmVKSxii8ZoPMb_to
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/verify-token?redirect_url=http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0ODF9.YqihaMyXmnMViecAx5SLhievYBUmVKSxii8ZoPMb_to" for ::1 at 2021-08-20 11:41:21 +0100
+Processing by AuthenticationController#verify_token as JSON
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0ODF9.YqihaMyXmnMViecAx5SLhievYBUmVKSxii8ZoPMb_to", "redirect_url"=>"http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0ODF9.YqihaMyXmnMViecAx5SLhievYBUmVKSxii8ZoPMb_to", "authentication"=>{"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0ODF9.YqihaMyXmnMViecAx5SLhievYBUmVKSxii8ZoPMb_to"}}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:29
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8" for ::1 at 2021-08-20 11:41:31 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8"}
+Redirected to http://localhost:3000?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTF9.bz63EYqZhehCDJeVBg0yW3-SteKbGfEN5tSrFRvfof8
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?redirect_url=http://localhost:3001/" for ::1 at 2021-08-20 11:41:33 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"redirect_url"=>"http://localhost:3001/"}
+Redirected to http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTN9.NtE8QK5ohEIIxdpg8Tj2ItEzxBFKJ4gyI55LHOEGNhY
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/verify-token?redirect_url=http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTN9.NtE8QK5ohEIIxdpg8Tj2ItEzxBFKJ4gyI55LHOEGNhY" for ::1 at 2021-08-20 11:41:33 +0100
+Processing by AuthenticationController#verify_token as JSON
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTN9.NtE8QK5ohEIIxdpg8Tj2ItEzxBFKJ4gyI55LHOEGNhY", "redirect_url"=>"http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTN9.NtE8QK5ohEIIxdpg8Tj2ItEzxBFKJ4gyI55LHOEGNhY", "authentication"=>{"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDI0OTN9.NtE8QK5ohEIIxdpg8Tj2ItEzxBFKJ4gyI55LHOEGNhY"}}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:29
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/load-user" for ::1 at 2021-08-20 11:52:27 +0100
+Processing by AuthenticationController#load_user as JSON
+  Parameters: {"id"=>5, "authentication"=>{"id"=>5}}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:29
+Completed 200 OK in 7ms (Views: 0.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/load-user" for ::1 at 2021-08-20 11:52:37 +0100
+Processing by AuthenticationController#load_user as JSON
+  Parameters: {"id"=>5, "authentication"=>{"id"=>5}}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:29
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/load-user" for ::1 at 2021-08-20 11:52:40 +0100
+Processing by AuthenticationController#load_user as JSON
+  Parameters: {"id"=>5, "authentication"=>{"id"=>5}}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:29
+Completed 200 OK in 6ms (Views: 1.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/logout?redirect_url=http://localhost:3001" for ::1 at 2021-08-20 11:52:45 +0100
+Processing by AuthenticationController#logout as HTML
+  Parameters: {"redirect_url"=>"http://localhost:3001"}
+Redirected to http://localhost:3001?token=no-user
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/?redirect_url=http://localhost:3001/" for ::1 at 2021-08-20 11:52:51 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"redirect_url"=>"http://localhost:3001/"}
+Redirected to http://localhost:3001/?token=no-user
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2021-08-20 11:52:56 +0100
+Processing by AuthenticationController#login as HTML
+  Rendering authentication/login.html.erb within layouts/application
+  Rendered authentication/login.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 44ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/authenticate" for ::1 at 2021-08-20 11:53:01 +0100
+Processing by AuthenticationController#authenticate as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u4e60paRJrxT68NAZ/OkCEYa2lyYmwcFh16WFwWqIxkmlvA59/ByXnAsFr8G9dZ1nUBNod0XNS3/8sGo6bFFhw==", "user"=>{"email"=>"admin@picfair.com", "password"=>"[FILTERED]"}, "commit"=>"Save User"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "admin@picfair.com"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "admin@picfair.com"], ["LIMIT", 1]]
+  ↳ app/commands/authenticate_user.rb:18
+Completed 200 OK in 1429ms (Views: 0.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/?redirect_url=http://localhost:3001/" for ::1 at 2021-08-20 11:53:07 +0100
+Processing by AuthenticationController#index as HTML
+  Parameters: {"redirect_url"=>"http://localhost:3001/"}
+Redirected to http://localhost:3001/?token=eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDMxODd9.kludjWnDZj0kk9MulwXIjoKLsWpCipweQmzWHeullNI
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/verify-token" for ::1 at 2021-08-20 11:53:07 +0100
+Processing by AuthenticationController#verify_token as JSON
+  Parameters: {"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDMxODd9.kludjWnDZj0kk9MulwXIjoKLsWpCipweQmzWHeullNI", "authentication"=>{"token"=>"eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2Mjk1NDMxODd9.kludjWnDZj0kk9MulwXIjoKLsWpCipweQmzWHeullNI"}}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:34
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/load-user" for ::1 at 2021-08-20 11:53:13 +0100
+Processing by AuthenticationController#load_user as JSON
+  Parameters: {"id"=>5, "authentication"=>{"id"=>5}}
+Can't verify CSRF token authenticity.
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/authentication_controller.rb:29
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
